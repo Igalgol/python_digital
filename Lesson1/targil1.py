@@ -1,2 +1,9 @@
-for i in range(10):
-    print(str(i) + ' -> Hello World' + '\n')
+num = 4567
+Alafim = num//1000
+Meot = num//100%10
+Asarot = num//10%10
+Ahadot = num%10
+print("Alafim = " + str(Alafim) +
+      '\n' + 'Meot = ' + str(Meot) +
+      '\n' + 'Asarot = ' + str(Asarot) +
+      '\n' + 'Ahadot = ' + str(Ahadot))
